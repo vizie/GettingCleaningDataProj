@@ -13,7 +13,7 @@ You may uncomment Line #5 to download a fresh copy of the data to your working d
   - 5-STANDING
   - 6-LAYING
 
- Data for activity by record can be found in "UCI HAR Dataset/test/y_test.txt" and "UCI HAR Dataset/train/y_train.txt" and is put into the variables 'yTest' and 'yTrain'.  The yTrain data is merged with the 'activtyLabels' data to make it more human friendly. 
+ Data for activity by record can be found in "UCI HAR Dataset/test/y_test.txt" and "UCI HAR Dataset/train/y_train.txt" and is put into the variables 'yTest' and 'yTrain'.  The yTrain data is merged with the 'activtyLabels' data to make it more readable. 
 
 #Subjects
   Subjects are labelled from 1-30 and are in non-unique lists ordered by the corresponding record in the x_train/x_test files.  This data can be found in "UCI HAR Dataset/train/subject_train.txt" and "UCI HAR Dataset/test/subject_test.txt") and is place in 'subTrain' and 'subTest', respectively.
