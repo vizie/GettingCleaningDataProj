@@ -1,4 +1,4 @@
-##Retrieve a clean source file
+##Set zip name/download name
 destFile<-"UCIHARData.zip"
 
 #Uncomment the below line for clean data
@@ -18,7 +18,6 @@ setkey(features, "V1")
 activityLabels<-fread("UCI HAR Dataset/activity_labels.txt")
 setkey(activityLabels, "V1")
 setnames(activityLabels, 2, "activityLabel") #Rename the new loaded column
-
 
 yTrain<-fread("UCI HAR Dataset/train/y_train.txt")
 setkey(yTrain, "V1")
