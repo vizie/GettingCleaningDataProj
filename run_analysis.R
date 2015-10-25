@@ -51,7 +51,6 @@ setkeyv(xFull, keycols)
 
 #Subset the data to on include columns with Mean, Std, or the Keys in their title 
 meandt<-xFull[, c(grep("mean",names(xFull)),grep("std",names(xFull)),grep("subject",names(xFull)),grep("activityLabel",names(xFull))),with=FALSE]
-meandt <- subset(meandt, select = -grep("meanFreq",names(meandt)))
 #Summarize the data by subject and activity
 output<-meandt[,lapply(.SD,mean),by=keycols]
 #Report on Means and std
