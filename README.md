@@ -12,6 +12,7 @@ You may uncomment Line #5 to download a fresh copy of the data to your working d
   - 4-SITTING
   - 5-STANDING
   - 6-LAYING
+
 #Subjects
-  Subjects are labelled from 1-30
+  Subjects are labelled from 1-30 and are in non-unique lists ordered by the corresponding record in the x_train/x_test files.  This data is found in "UCI HAR Dataset/test/y_test.txt" and "UCI HAR Dataset/train/y_train.txt" and put into the variables yTest and yTrain.
 
