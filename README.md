@@ -2,9 +2,12 @@
 Use the run_analysis.R file to aggregate the data found at:   https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 You may uncomment Line #5 to download a fresh copy of the data to your working directory.
 
+#Data definitions
+More information on the data can be found in "UCI HAR Dataset/README.txt" or in codebook: (https://github.com/vizie/GettingCleaningDataProj/blob/master/CodeBook.md)
+
 #Features (Columns)
   The columns of this data set are held in "UCI HAR Dataset/features.txt" and input into the variable 'features'.  These features are applied to the x_test and x_train files to clearly label the columns.
-#Potential Activites
+#Potential Activities
   Their are 6 activities possible.  A unique list is found in "UCI HAR Dataset/activity_labels.txt" and input into the variable 'activityLabels'
   - 1-WALKING
   - 2-WALKING_UPSTAIRS
